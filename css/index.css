@@ -1,0 +1,78 @@
+.dingbu{
+    width: 7.5rem;
+    height: 0.6rem;
+}
+.container{
+    width: 7.5rem;
+    height: auto;
+    /* overflow 属性规定当内容溢出元素框时发生的事情。
+            visible	默认值。内容不会被修剪，会呈现在元素框之外。
+            hidden	内容会被修剪，并且其余内容是不可见的。
+            scroll	内容会被修剪，但是浏览器会显示滚动条以便查看其余的内容。
+            auto	如果内容被修剪，则浏览器会显示滚动条以便查看其余的内容。
+            inherit	规定应该从父元素继承 overflow 属性的值 */
+    overflow: hidden;
+}
+.box{
+    width: 1.875rem;
+    height: 1.7rem;
+    /* 圆角 */
+    border-radius: 0.2rem;
+    /* 浮动 */
+    float: left;
+    /* 下间距 */
+    margin-bottom: 0.4rem;
+    /* margin-right: 0.03rem; */
+    /* margin-top: 0.4rem; */
+    /* margin-left: 0.2rem; */
+}
+.imgbox{
+    width: 1.1rem;
+    height: 1.1rem;
+    margin-left: 0.4rem;
+}
+.img3{
+    width: 1.1rem;
+    height: 1.1rem;
+    border-radius: 0.3rem;
+}
+.text1{
+    font-size: 0.3rem;
+    color: #2d2f3d;
+    /* 左填充 */
+    text-align: center;
+    box-sizing: border-box;
+    margin-top: 0.09rem;
+}
+.tab{
+    width: 7.5rem;
+    height: 1.25rem;
+    background: #ffffff;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+}
+.list{
+    width: 25%;
+    height: 1.25rem;
+    float: left;
+}
+.icon-zuo,.icon-dianyingshipin,.icon-search,.icon-wode{
+    display: block;
+    color: #7f7f7f;
+    text-align: center;
+    margin-top: 0.2rem;
+    margin-bottom: 0.1rem;
+}
+.tabtext{
+    font-size: 0.2rem;
+    color: #7f7f7f;
+    /* 文字水平居中 */
+    text-align: center;
+}
+
+
+
+
+
+
